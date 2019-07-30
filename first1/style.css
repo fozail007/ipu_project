@@ -1,0 +1,163 @@
+.A1 select{
+	background-color: lightgray;
+	outline:none;
+}
+.A1 input{
+	border:none;
+}
+.tollfree{
+	font-size: 16px;
+	color:black;
+}
+.navbar1 ul li{
+	list-style: none;
+	display:inline;
+	padding-left: 10px;
+	cursor: pointer;
+	border-left: 1px solid black;
+}
+.navbar1 nav{
+	margin-top:-28px; 
+	margin-left:-51px;
+}
+.navbar1 ul li a{
+	color:blue;
+}
+.navbar1 ul li:hover{
+	background-color:light grey;
+	color:red;
+}
+.navbar1 ul li:nth-child(2)
+{
+	margin: 2px;
+	border:none;
+}
+.navbar1 ul li:nth-child(8)
+{
+	border:none;
+}
+.navbar-inverse{
+	background-color: #1f3173;
+	border:none;
+	border-radius: 0px;
+   
+}
+.navbar-nav li{
+	padding-left:120px;
+	padding-top: 12px;
+    color: white;
+   /* border-left: 1px dotted white;*/
+}
+.navbar-nav{
+ margin-left: -97px;
+}
+.navbar-nav li:hover{
+	color: orange;
+}
+.h3tag h3{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.view{
+	position:relative;
+	overflow: hidden;
+}
+.box{
+	max-width:270px;
+	height:108px;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:-120px;
+	background-color: lavender;
+	-webkit-transition:all 1s;
+}
+.view:hover .box{
+	bottom:0;
+}
+.box h4{
+	margin-left: 10px;
+}
+.box p{
+	margin-left: 10px;
+}
+
+.col-md-15, 
+col-xs-15{
+ position:relative;
+ min-height: 1px;
+}
+@media(min-width:992px){
+   .col-md-15{
+        width:20%;
+        float:left;
+    }
+}
+@media(min-width:320px){
+   .col-xs-15{
+        width:20%;
+        float:left;
+    }
+}
+h5{
+	margin-left: 200px;
+}
+.ADMIRE{
+	position:relative;
+}
+.buynow{
+	max-width:600px;
+	height:140px;
+	position: absolute;
+	left:0;
+	right:0;
+	top: 253px;
+	bottom:0;
+	margin:auto;
+	background-color: white;
+}
+.buynow h4{
+	color:white;
+	text-align: center;
+}
+.buynow p{
+  color:white;
+	text-align: center;	
+}
+.buynow input{
+	position: absolute;
+	left:200px;
+	right: 0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.buynow:hover p{
+	color:yellow;
+}
+.buynow:hover h4{
+	color:blue;
+}
+.last{
+	margin: 10px;
+	padding: 10px;
+	background-color:  #7AC5CD;
+	opacity: 0.8;
+
+}
+.last ul {
+	  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+.last ul li{
+	color: white;
+}
+.last ul li a :hover{
+	color: red;
+	cursor: pointer;
+}
